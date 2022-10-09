@@ -12,7 +12,7 @@ FFMPEG_BIN = '/usr/bin/ffmpeg'
 def run_ffmpeg():
     ffmpg_cmd = [
         FFMPEG_BIN,
-        '-i', 'rtsp://admin:admin@192.168.0.160',
+        '-i', 'rtmp://192.168.100.240/live/livestream',
         '-video_size', '640x480',
         '-pix_fmt', 'bgr24',  # opencv requires bgr24 pixel format
         '-vcodec', 'rawvideo',
