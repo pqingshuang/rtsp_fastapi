@@ -21,7 +21,7 @@ count_keep_alive = 0
 width = 1280
 height = 720
 
-url_rtsp = 'rtsp://admin:admin123@192.168.0.150/'
+url_rtsp = 'rtmp://192.168.100.240/live/livestream'
 
 def start_stream(url_rtsp, manager):
     global width
